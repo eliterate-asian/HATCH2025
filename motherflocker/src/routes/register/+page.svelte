@@ -21,8 +21,9 @@
   }
 </style>
 
-<h2>Register Data</h2>
+
 <div class="container">
+  <h1>Register Data</h1>  
 <form>
   <label for="aname">Apiary Name:</label><br>
   <input type="text" id="aname" name="aname" value="Hidden Clover Apiary"><br><br>
