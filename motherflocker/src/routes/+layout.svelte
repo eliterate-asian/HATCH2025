@@ -2,7 +2,7 @@
 <style>
     ul {
     list-style-type: none;
-    margin: 0;
+    margin: 20px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -26,6 +26,7 @@
 </style>
 
 <ul>
+    <li><a href="/">Home</a></li>
     <li><a href="/about">About</a></li>
     <li><a href="/register">Register</a></li>
 </ul>
