@@ -1,28 +1,27 @@
-<script>
-
-
-    export let data
-    console.log(data)
-    
-
-</script>
 
 <style>
   * {
       box-sizing: border-box;
   }
   .container {
-      max-width: 100%;
-      margin: 20px;
-      padding: 20px;
-      border: 5px solid rgb(78, 75, 78);
-      background-color: rgb(78, 75, 78);
-      color: rgb(255, 255, 255);
-  }
+        max-width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 50px;
+        border: 5px solid rgb(78, 75, 78);
+        background-color: rgb(78, 75, 78);
+        color: rgb(255, 255, 255);
+    }
+
+  .dark {
+        max-width: 100%;
+        background-color: #222;
+        color: #eee;
+    }
 </style>
 
-
-<div class="container">
+<div class="dark">
+  <div class="container">
   <h1>Register Data</h1>  
 <form>
   <label for="aname">Apiary Name:</label><br>
@@ -39,4 +38,5 @@
   
   <input type="submit" value="Submit">
 </form>
-</div>
+</div></div>
+

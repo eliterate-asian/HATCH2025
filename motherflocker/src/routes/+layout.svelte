@@ -1,8 +1,11 @@
+<style lang="postcss">
+    :global(body) {
+      @apply bg-zinc-900;
+    }
 
-<style>
     ul {
     list-style-type: none;
-    margin: 20px;
+    margin: 0px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -30,5 +33,8 @@
     <li><a href="/about">About</a></li>
     <li><a href="/register">Register</a></li>
 </ul>
+
+
+
 
 <slot></slot>
